@@ -8,16 +8,13 @@
 # Heleh W nuub ea qimack!!!
 '''
 
-takeover = """\033[92m
-_____     _           ___
-|_   _|_ _| | _____   / _ \__   _____ _ __
-  | |/ _` | |/ / _ \ | | | \ \ / / _ \ '__|
-  | | (_| |   <  __/ | |_| |\ V /  __/ |
-  |_|\__,_|_|\_\___|  \___/  \_/ \___|_|
-
-\033[31;1mCreator = StarFuckTak'-'
-\033[36;1mCoder = python2
-\033[97mgithub = https://github.com/K0NT0L
+takeover = """
+\033[00m*\033[99m*******************************************
+\033[00m*\033[31;1mCreator = StarFuckTak'-'        \033[00m*
+\033[00m*\033[36;1mCoder = python2.                \033[00m*
+\033[00m*\033[97mgithub = https://github.com/K0NT0L\033[00m*
+\033[00m*                                          \033[00m*
+\033[00m*\033[99m*******************************************
 """
 red = '\033[31;1m'
 green = '\033[32;1m'
@@ -29,10 +26,9 @@ white = '\033[37;1m'
 
 import requests, threading, os, sys, time
 os.system("clear")
-
+os.system("figlet Take Over | lolcat")
+print 
 print takeover
-
-print 55*"\033[34;5m="
 print(purple),("Contoh:  \033[33;5mgrab.github.io")
 nuub = raw_input("\033[32;5mTarget Domain/IP: \033[31;5m")
 req = requests.get("https://api.hackertarget.com/reverseiplookup/?q=" + (nuub))
