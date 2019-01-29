@@ -15,9 +15,9 @@ _____     _           ___
   | | (_| |   <  __/ | |_| |\ V /  __/ |
   |_|\__,_|_|\_\___|  \___/  \_/ \___|_|
 
-Creator = StarFuckTak'-'
-Coder = python2
-github = https://github.com/K0NT0L
+\033[31;1mCreator = StarFuckTak'-'
+\033[36;1mCoder = python2
+\033[97mgithub = https://github.com/K0NT0L
 """
 red = '\033[31;1m'
 green = '\033[32;1m'
